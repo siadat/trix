@@ -29,7 +29,7 @@ class Trix.BlockView extends Trix.ObjectView
   createContainerElement: (depth) ->
     attribute = @attributes[depth]
     config = Trix.config.blockAttributes[attribute]
-    makeElement(config.tagName)
+    makeElement(config.tagName, config.htmlAttributes)
 
   # A single <br> at the end of a block element has no visual representation
   # so add an extra one.

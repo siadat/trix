@@ -2,6 +2,18 @@ Trix.config.blockAttributes = attributes =
   default:
     tagName: "div"
     parse: false
+  ltr:
+    tagName: "div"
+    parse: false
+    htmlAttributes:
+       dir: "ltr"
+       style: "text-align:left;"
+  rtl:
+    tagName: "div"
+    parse: false
+    htmlAttributes:
+       dir: "rtl"
+       style: "text-align:right;"
   quote:
     tagName: "blockquote"
     nestable: true

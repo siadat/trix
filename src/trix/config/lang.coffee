@@ -11,6 +11,8 @@ Trix.config.lang =
   link: "Link"
   numbers: "Numbers"
   outdent: "Decrease Level"
+  rtl: "RTL"
+  ltr: "LTR"
   quote: "Quote"
   redo: "Redo"
   remove: "Remove"

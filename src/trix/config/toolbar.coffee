@@ -12,6 +12,8 @@ Trix.config.toolbar =
       </span>
 
       <span class="button_group block_tools">
+        <button type="button" class="rtl" data-attribute="rtl" title="#{lang.rtl}">#{lang.rtl}</button>
+        <button type="button" class="ltr" data-attribute="ltr" title="#{lang.ltr}">#{lang.ltr}</button>
         <button type="button" class="quote" data-attribute="quote" title="#{lang.quote}">#{lang.quote}</button>
         <button type="button" class="code" data-attribute="code" title="#{lang.code}">#{lang.code}</button>
         <button type="button" class="list bullets" data-attribute="bullet" title="#{lang.bullets}">#{lang.bullets}</button>
